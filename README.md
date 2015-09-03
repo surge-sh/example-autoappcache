@@ -1,6 +1,6 @@
 # Auto AppCache example
 
-An example using [Surge](https://surge.sh)’s Auto AppCache for building offline web apps
+An example using [Surge](https://surge.sh)’s Auto AppCache to building offline web apps
 
 ## Getting started
 

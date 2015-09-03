@@ -1,7 +1,7 @@
 {
   "name": "@surge/example-autoappcache",
   "version": "0.1.0",
-  "description": "An example using Surge’s Auto AppCache for building offline web apps.",
+  "description": "An example using Surge’s Auto AppCache to building offline web apps.",
   "homepage": "https://surge.sh",
   "repository": "https://github.com/surge-sh/example-autoappcache.git",
   "license": "MIT",
