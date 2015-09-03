@@ -1,0 +1,23 @@
+{
+  "name": "@surge/example-autoappcache",
+  "version": "0.1.0",
+  "description": "An example using Surge’s Auto AppCache for building offline web apps.",
+  "homepage": "https://surge.sh",
+  "repository": "https://github.com/surge-sh/example-autoappcache.git",
+  "license": "MIT",
+  "private": true,
+  "author": "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+    "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
+  ],
+  "keywords": ["surge", "surge.sh", "example", "appcahce", "auto appcahce", "offline", "offline first", "static"],
+  "devDependencies": {
+    "surge": "latest"
+  },
+  "scripts": {
+    "compile": "echo \"If you’re using a static site generator or other compilation step, you could run it here and deploy your build directory instead!\"",
+    "predeploy": "npm run compile",
+    "deploy": "surge --project ./src --domain example-autoappcache.surge.sh"
+  }
+}
