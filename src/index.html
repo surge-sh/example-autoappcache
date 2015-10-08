@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html manifest="/auto.appcache"><!-- This file is generated and maintained for you, by Surge -->
-  <head>
-    <meta charset="utf-8">
-    <title>Offline-friendly app</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="/css/tachyons.css">
-  </head>
-  <body class="w-100 sans-serif">
-    <main>
-      <h1>Hello, world—online and offline.</h1>
-      <ul>
-        <li><a href="/article">Article 1</a></li>
-      </ul>
-    </main>
-    <script>
-      // Stay in Standalone Mode script for Mobile Safari
-      // MIT via http://git.io/iApOyQ
-      (function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(chref=d.href).replace(e.href,"").indexOf("#")&&(!/^[a-z\+\.\-]+:/i.test(chref)||chref.indexOf(e.protocol+"//"+e.host)===0)&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone");
-    </script>
-  </body>
+<html manifest="/auto.appcache">
+<head>
+  <title>Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+<!-- This template is from http://www.basscss.com/docs/guides/layout/#blog-teaser -->
+<body>
+  <section class="container px2 py3">
+    <h1 class="mt0">
+      <a href="#" class="black">
+        Blog
+      </a>
+    </h1>
+    <div class="clearfix mxn2">
+      <div class="sm-col sm-col-8 md-col-9 px2">
+        <div>
+          <h2 class="h3">
+            <a href="#" class="black">
+              Blog Post Title
+            </a>
+          </h2>
+          <p>Aliquam lobortis lacinia magna eu eleifend. Cras et lobortis diam, vel efficitur lacus. Phasellus eget sollicitudin felis. Pellentesque fringilla, ex eu vehicula sodales, tortor ex accumsan nibh, id varius mi ipsum id massa. Nullam tempus, tortor sed aliquet consequat, orci metus tincidunt tortor, in aliquam erat turpis at urna.</p>
+          <img src="/media/1.gif" class="block rounded mt1 mb3">
+          <p>Nam finibus massa non tempor pellentesque. Vivamus dapibus lobortis hendrerit. In nec elit tortor. Duis eget vulputate nisi. Mauris blandit, arcu in sagittis faucibus, purus lacus ultricies tellus, vitae volutpat est sem sit amet nisl. Donec porttitor purus id ex placerat fermentum. Sed et diam feugiat, luctus diam quis, condimentum risus. Morbi ultricies tempor massa, ut mattis diam tincidunt quis.</p>
+          <a href="#">Read more</a>
+        </div>
+        <div>
+          <h2 class="h3">
+            <a href="#" class="black">
+              Blog Post Title
+            </a>
+          </h2>
+          <p>Vivamus felis lorem, auctor sed convallis sed, elementum nec mauris. Phasellus accumsan, orci sed auctor placerat, diam nisl dapibus massa, blandit porta sapien elit vulputate sapien. Integer commodo nibh eget quam porta sagittis. Quisque euismod mattis lacus, eu eleifend risus rhoncus ac. Donec at sollicitudin erat, at vehicula lectus. Quisque dignissim semper orci, vitae pulvinar neque rutrum non. Maecenas vitae nisi finibus, lacinia urna id, bibendum magna. Integer eu libero vel quam viverra venenatis ut sed justo. Etiam lacinia metus ex, a dignissim odio maximus sit amet. Nunc vitae tortor volutpat, euismod est sit amet, iaculis leo.</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      <div class="sm-col sm-col-4 md-col-3 px2 sm-show">
+        <h3 class="h4">Categories</h3>
+        <ul class="list-reset">
+          <li><a href="#" class="">Apple</a></li>
+          <li><a href="#" class="">Orange</a></li>
+          <li><a href="#" class="">Banana</a></li>
+          <li><a href="#" class="">Pinapple</a></li>
+          <li><a href="#" class="">Kumquat</a></li>
+          <li><a href="#" class="">Blueberry</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
